@@ -1,0 +1,34 @@
+CMP1902M Object Oriented Programming 2022/23
+Assignment 1: RESIT report
+
+Name: Lorna Foster
+Student ID: 26093976
+
+My Code Review:
+
+Commenting:
+The code has little comments and documentation. Regardless of the size of code, it is always useful to include comments to explain the purpose of the code, the logic being implemented, and any significant sections.
+
+Suggestions for commenting within the code:
+. Add comments at the beginning of the code to explain the purpose of the program.
+. Comment the purpose of each section of the code, such as where user input is being taken and where the result is being displayed.
+. Add comments to explain the logic of score classification and any important conditions.
+
+Error Handling:
+The code does handle errors to some extent. However, it doesn't handle all possible errors or invalid inputs.
+
+.Wrap the input parsing (Double.Parse(...)) in a try-catch block to handle cases where the user enters non-numeric input. Provide a user-friendly error message.
+.Consider adding checks for invalid test scores that are out of the expected range (0-100). Currently, the code only handles scores less than 0 and greater than 100, but it should also handle values that are not in that range.
+
+
+My Suggestions:
+. Split the code into smaller functions. While this is a small program, breaking it into functions (e.g., one for input, one for scoring logic, one for displaying results) will make it more modular and easier to maintain in the future.
+. Consider using more meaningful variable names. Instead of str1 and dbl1, use names that describe their purpose, like studentName and testScore.
+. Improve the conditional structure: Instead of nested if statements, use else if clauses for clearer branching logic.
+. Add more detailed feedback for the user. For example, if the input is not a valid number, provide a specific error message indicating that the input should be a number.
+. Consider using constants for magic numbers like 40, 75, and 100. This makes the code more readable and maintainable.
+
+
+Relfection on code review:
+I personally consider giving code reviews to be a valuable and constructive process however it is not one I enjoy. 
+I view receiving code reviews as an important opportunity for growth and improvemen, as feedback from my peers is invaluable in helping me refine my coding skills and produce higher-quality code. Constructive criticism helps me identify areas for enhancement and learn from different perspectives, allowing me to explore more possibilities within my code.
